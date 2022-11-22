@@ -10,10 +10,13 @@ npm t
 
 ## Test (Watch mode)
 ```
-npm run watch
+npm t -- --watchAll
 ```
 
-## Build
+## Serve index.html
+Use VSCode's live server to open index.html
+
+## Simply execute index.js
 ```
-npm run build
+node src/index.js
 ```
